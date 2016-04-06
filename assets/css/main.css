@@ -156,7 +156,7 @@ a.brick:hover {
 	border: 1px solid black;
     padding: 24px 32px;
     min-height: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 12px;
     position: relative;
 }
 
@@ -193,6 +193,12 @@ figure {
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 1004px) {
+	.expanded-brick img {
+		max-width: 100%;
+	}
+}
+
 @media screen and (max-width: 550px) {
 
 	body {
@@ -203,6 +209,20 @@ figure {
 		max-width: 100%;
 		width: 350px;
 		margin-top: 0;
+	}
+
+	.brick-container {
+		display: block;
+	}
+
+	.brick,
+	a.brick {
+		width: 100%;
+		display: block;
+	}
+
+	.year {
+		position: static;
 	}
 
 }
