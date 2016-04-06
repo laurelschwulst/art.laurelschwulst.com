@@ -152,6 +152,10 @@ a.brick:hover {
 	text-decoration: none;
 }
 
+a.brick:visited {
+	opacity: 0.4;
+}
+
 .expanded-brick {
 	border: 1px solid black;
     padding: 24px 32px;
@@ -183,7 +187,7 @@ a.brick:hover {
 }
 
 iframe {
-	margin-bottom: 18px;
+	padding-bottom: 18px;
 }
 
 figure {
