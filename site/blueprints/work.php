@@ -19,3 +19,11 @@ fields:
   description:
     label: Description
     type:  textarea
+  theme:
+    label: Theme
+    type:  radio
+    options: query
+    help: To add a new theme, create a page for them under the "Themes" page
+    query:
+      page: themes
+      fetch: children

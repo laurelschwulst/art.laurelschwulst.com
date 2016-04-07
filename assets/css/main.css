@@ -195,6 +195,22 @@ figure {
 	margin-bottom: 24px;
 }
 
+.sound-and-pods{
+	border-style: dotted !important;
+}
+
+.in-between-what-already-exists {
+	border-style: dashed !important;
+}
+
+.collection-of-pictures-or-words {
+	border-style: double !important;
+}
+
+.fictional-consumer-product-interaction {
+	border-color: groove !important;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1004px) {

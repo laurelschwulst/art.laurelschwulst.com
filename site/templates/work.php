@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-    <div class="expanded-brick">
+    <div class="expanded-brick <?php echo $page->theme() ?>">
 
       <div class="info-zone">
 
