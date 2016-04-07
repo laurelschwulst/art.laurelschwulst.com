@@ -130,8 +130,9 @@ li img {
 }
 
 .brick-container {
-	display: inline-block;
-    margin-right: 12px;
+	/*display: inline-block;*/
+    /*margin-right: 12px;*/
+    display: block;
     margin-bottom: 12px;
 }
 
@@ -144,7 +145,8 @@ a.brick {
     margin-top: 0;
     font-weight: bold;
     font-family: 'Times New Roman', serif;
-    display: inline-block;
+    display: block;
+    width: 100%;
 }
 
 .brick a:hover,
