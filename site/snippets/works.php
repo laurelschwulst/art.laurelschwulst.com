@@ -1,6 +1,6 @@
 <div class="all-bricks">
 
-  <?php foreach(page('works')->children()->visible()->sortBy('theme, year') as $work): ?>
+  <?php foreach(page('works')->children()->visible()->sortBy('theme')->flip() as $work): ?>
   
   <div class="brick-container">
   	
