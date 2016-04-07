@@ -197,20 +197,21 @@ figure {
 	margin-bottom: 24px;
 }
 
-.sound-and-pods{
-	border-style: dotted !important;
+.sound-and-pods {
+	border-style: solid;
 }
 
 .in-between-what-already-exists {
 	border-style: dashed !important;
 }
 
-.collection-of-pictures-or-words {
-	border-radius: 47%;
+.fictional-consumer-product-interaction {
+	border-radius: 24px;
 }
 
-.fictional-consumer-product-interaction {
-	border-top-left-radius: 24px;
+.collection-of-pictures-or-words {
+	border-style: dotted !important;
+	border-width: 1.5px !important;
 }
 
 /* MEDIA QUERIES */
