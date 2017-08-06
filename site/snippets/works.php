@@ -1,9 +1,9 @@
 <div class="all-bricks">
 
-  <?php foreach(page('works')->children()->visible()->sortBy('theme')->flip() as $work): ?>
-  
+  <?php foreach(page('works')->children()->visible() as $work): ?>
+
   <div class="brick-container">
-  	
+
   	  <?php if($work->dormant() == '1'): ?>
   	  	<span class="dormant brick <?php echo $work->theme() ?>">
   	  <?php else: ?>
